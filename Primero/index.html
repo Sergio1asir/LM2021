@@ -7,16 +7,16 @@
     <body>
         <!--Esto es un comentario-->
         <pre>
-            un texto
+            <u> texto </u><sub>del primero</sub>
             otro texto
             una frase con ñ
         </pre>
         <!-- Párrafos -->
         <p>
-            Primer párrafo<br/>
+            <span style="font-weight: bold ;font-style: italic";>párrafo</span><br/>
         </p>
         <p>
-            Segundo Párrafo
+            <i>Segundo</i><b>Párrafo</b>
         </p>
         <!--Encabezados-->
         <h1>A</h1>
@@ -27,5 +27,37 @@
         <h6>A</h6>
         <!--Como poner una líea horizontal-->
         <hr style="color:red"/>
+
+        <!--Párrafos avanzados-->
+        <blockquote style="background: gray;"> 
+            <strong>Tema 1</strong>
+            <p>Este es el tema 1 del <del>libro</del></p>
+        </blockquote>
+
+        <!--Listas-->
+        <ul type="square">
+            Lista de Objetos
+            <li>Mesa</li>
+            <li>Silla</li>
+            <li>Ordenador</li>
+        </ul>
+        <ol>
+            Lista de Objetos
+            <li>Mesa</li>
+                <ul>
+                    Tipos de Mesa
+                    <li>Salón</li>
+                    <li>Cocina</li>
+                    <li>Terraza</li>
+                </ul>
+            <li>Silla</li>
+            <li>Ordenador</li>
+        </ol>
+        <dl>
+            <dt>Ordenador</dt>
+            <dd>Elemento para trabajar en clase</dd>
+            <dt>Proyector</dt>
+            <dd>Elemento para ver las clases</dd>
+        </dl>
     </body>
 </html>
