@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset='utf-8'>
+    <title>Excercise_02</title>
+</head>
+<body>
+    <h1>Encabezado 1</h1>
+    <h2 style="font-weight: bold;">Encabezado 2</h2>
+    <h3><i>Encabezado 3</i></h3>
+    <h4><u>Encabezado 4</u></h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+    <pre style="background-color: aqua;">
+        <u>HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto</u>
+    </pre>
+    <p>
+        <span style="font-weight: bold; font-style: verdana;">Existes ciertas excepciones con el fin de las etiquetas, ya que algunas usualmente sólo se utilizan con el inicio de la etiqueta, ejemplos de esto son las etiquetas BR (salto de línea), IMG (etiqueta para poner una imagen), entre otras. </span><br>
+    </p>
+    <p>Ya casi estamos <span style="background-color: blue; font-style: oblique">listos para escribir HTML pero todavía nos falta ver la estructura de un código de HTML. Nuestro código siempre debe iniciar con la etiqueta HTML. A continuación se muestra un ejemplo de la estructura del código HTML. Ahora veremos un pequeño ejemplo del cuerpo de un código de HTML con algunos efectos en el texto como cursiva, subrayado, negrita.</span></p>
+    <ul>
+        Componentes
+        <li>Procesador</li>
+        <ol>
+            <li>300€</li>
+        </ol>
+        <li>Disco Duro</li>
+        <ol>
+            <li>70€</li>
+        </ol>
+        <li> RAM</li>
+        <ol>
+            <li> 200€</li>
+        </ol>
+    </ul>
+</body>
+</html>
