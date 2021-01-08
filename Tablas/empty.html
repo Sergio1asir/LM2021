@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Empty-cells</title>
+    <style>
+        .a1{
+            color: red;
+            background-color: #F6FC38;
+        }
+        .a2{
+            color: blue;
+            background-color: #28C0FF;
+        }
+    </style>
+</head>
+<body>
+    <table style="caption-side: top; text-align: center;"><h3 style="margin-left: 7%;">Propiedad empty-cells y caption-side</h3>
+        <thead>
+            <tr>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black" class="a1">Columna 1</td>
+                <td style="border: 1px solid black" class="a1">Columna 2</td>
+                <td style="border: 1px solid black" class="a1">Columna 3</td>
+                <td style="border: 1px solid black" class="a1">Columna 4</td>
+                <td style="border: 1px solid black" class="a1">Columna 5</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black" class="a1">Fila 1</td>
+                <td style="border: 1px solid black" class="a2">Celda 1,1</td>
+                <td style="border: 1px solid black"  class="a2">Celda 1,2</td>
+                <td style="border: 1px solid black"  class="a2">Celda 1,3</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 1,5</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black" class="a1">Fila 2</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 2,2</td>
+                <td style="border: 1px solid black"  class="a2">Celda 2,3</td>
+                <td style="border: 1px solid black"  class="a2">Celda 2,4</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black" class="a1">Fila 3</td>
+                <td style="border: 1px solid black"  class="a2">Celda 3,1</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 3,3</td>
+                <td style="border: 1px solid black"  class="a2">Celda 3,4</td>
+                <td style="border: 1px solid black"  class="a2">Celda 3,5</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black" class="a1">Fila 4</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 4,2</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 4,4</td>
+                <td style="border: 1px solid black"  class="a2">Celda 4,5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td style="border: 1px solid black"class="a1">Fila 5</td>
+                <td style="border: 1px solid black"  class="a2">Celda 5,1</td>
+                <td style="border: 1px solid black"  class="a2">Celda 5,2</td>
+                <td style="border: 1px solid black"  class="a2">Celda 5,3</td>
+                <td style="empty-cells: hide; border: 1px solid black"></td>
+                <td style="border: 1px solid black"  class="a2">Celda 5,5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
