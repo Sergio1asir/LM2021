@@ -1,0 +1,91 @@
+a,p {
+    font-size: 22px; /*Todas las etiquetas que queremos aplicarle un estilo */
+} 
+div a {
+    color: burlywood;
+} /*Todos los enlaces que esten dentro del div */
+div#capa1 {
+    background: chocolate;
+} /* Todos los div cuyo id sea capa1 */
+.letraGrande {
+    font-size: xx-large;
+}
+.noSubrayado{
+    text-decoration: none;
+}
+
+div#capa1 a{
+    font-family: monospace;
+}/* Todos los enlaces que estan en una capa cuya id es capa1 y tienen una clase que se llama encima*/
+
+div#capa1 a.encima:hover{
+    color: yellow;
+    font-size: 40px;
+}/*Sirve para referenciar a una acción*/
+div#capa1 a.encima:link{
+    color: violet;
+}
+div#capa1 a.encima:visited{
+    color: black;
+}
+p#miparrafo::first-line {
+    font-size: 12px;
+    color: brown;
+    font-weight: bold;
+}
+p#miparrafo::first-letter {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ul#capafinal li:first-child {
+    background: blue;
+}
+ul#capafinal li:last-child {
+    background: cadetblue;
+}
+
+div#capa1 * {
+    font-style: italic;
+} /*Todos los elementos que tenga dentro */
+
+div > a {
+    border: 2px solid black;
+}/* Seleccione todos los enlaces cuyo padre sea una capa */
+
+a [href^="https"] {
+    text-transform: lowercase;
+} /* Aplica estilo cuyo atributo href empiece por https*/
+
+a [href$="pdf"] {
+    font-size: xx-small;
+} /*Aplica estilo cuyo atributo href termine por pdf */
+
+a [href*="triana"] {
+    background: bisque;
+}/*Aplica estilo cuyo atributo href contenga(*) triana */
+
+div + p {
+    border: 2px dotted blue;
+}/*Selecciona todos los parrafos inmediatamente después de una capa */
+
+a[target=_blank] {
+    font-size: 100px;
+}
+input:focus {
+    border: 1px solid blue;
+}
+input:enabled {
+    border: 2px solid blue;
+}
+input:disabled {
+    border: 2px solid red;
+}
+input:checked {
+    border: 2px solid yellow;
+}
+
+:not(p) {
+    text-decoration: overline;
+}/*Selecciona todas las etiquetas no sean un parrafo */
