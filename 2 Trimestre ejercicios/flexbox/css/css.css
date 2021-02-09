@@ -1,0 +1,30 @@
+.contenedor {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column-reverse; Pone la orientación en foma de columna*/
+    /*flex-wrap: wrap; Muestra según su anchura en una fila y si no cabe se baja a otra*/
+    /*flex-flow: row-reverse wrap;*/
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; /*justify-content: alinea en el eje horizontal las capas*/
+
+    /*height: 240px;
+    background: grey;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    /*align-items: baseline;
+    align-content: space-around;*/
+}
+.elemento {
+    width: 24%;
+    background: linear-gradient(to right, blue, white);
+    border: 1px solid black;
+    height: 40px;
+    color: white;
+    flex: 1 1 0; /*Le estamos dando 3 propiedades,El primer uno que todos los elementos tengan el mismo tamaño, con el otro 1 corresponde al shrink y el 0 especifica el tamaño dependiendo del espacio que haya libre/ocupado*/
+}
+.elemento:nth-child(4) {
+    /*order: 2;*/
+    flex-grow: 3;
+
+}
